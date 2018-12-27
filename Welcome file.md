@@ -1,4 +1,3 @@
-
 # SOFA Mesh的技术选型
 
 ## 性能要求
@@ -29,5 +28,5 @@
 Mixer三大功能：
 1、check。也叫
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjkxNDI3NSw4Mjc3MDQzMjZdfQ==
+eyJoaXN0b3J5IjpbMTYwNTYzNDA5XX0=
 -->
