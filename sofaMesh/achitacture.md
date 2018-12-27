@@ -32,8 +32,8 @@ Mixer三大功能：
 
 前两个功能是同步阻塞的，report可以通过异步和批量的方式来做。
 ![](https://pic2.zhimg.com/80/v2-66fa5cdafc709896f704b37681dea1bd_hd.jpg)
-
+![](https://pic4.zhimg.com/80/v2-ee4fd6a51e804dd3abbc7ca32740dd0b_hd.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIyMzM1MjYsLTE1MjM5MTA4ODYsNT
+eyJoaXN0b3J5IjpbLTE2ODM0ODkwNDgsLTE1MjM5MTA4ODYsNT
 AxMTkyNTk2LC03ODQwMDYzMzRdfQ==
 -->
