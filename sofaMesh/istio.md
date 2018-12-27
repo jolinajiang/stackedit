@@ -3,8 +3,11 @@
 Istio服务网格逻辑上分为**数据平面**和**控制平面**
 
 - **数据平面**由一组以sidecar方式不是的智能代理[Envoy](https://www.envoyproxy.io/)组成。这些代理可以调节和控制微服务及[Mixer](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/)之间所有的网络通信。
-- **控制平面**负责管理和配置代理 
+- **控制平面**负责管理和配置代理路由流量。此外控制平面配置Mixer以实施策略和收集遥测数据。
+
+架构图如下：
+![åŸºäºŽ Istio çš„åº”ç”¨ç¨‹åºæž¶æž„æ¦‚è§ˆ](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk3Mjc4MzksMTg3MzEyMzU2MCwtMT
-U4OTM2OTk5OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTIxMzgyNDE3LDE4NzMxMjM1NjAsLTE1OD
+kzNjk5OTksNzMwOTk4MTE2XX0=
 -->
