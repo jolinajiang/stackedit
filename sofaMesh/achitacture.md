@@ -26,9 +26,9 @@
 ![preview](https://pic3.zhimg.com/v2-94dd7678c9dbb52b8897fb24d0c00ef6_r.jpg)
 最大变化在Mixer，Sidecar替换Envoy而已，架构上没有变化。
 Mixer三大功能：
-1、check也叫precondition,前置条件检查，比如说黑白名单，权限。
-2、quota，比如说访问次数之类。
-3、report
+1、check，也叫precondition,前置条件检查，比如说黑白名单，权限；
+2、quota，比如说访问次数之类；
+3、report，比如说日志，度量等。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgwNDQ5NDYsLTc4NDAwNjMzNF19
+eyJoaXN0b3J5IjpbNTAxMTkyNTk2LC03ODQwMDYzMzRdfQ==
 -->
