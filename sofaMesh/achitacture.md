@@ -31,9 +31,9 @@ Mixer三大功能：
  - report，比如说日志，度量等。
 
 前两个功能是同步阻塞的，report可以通过异步和批量的方式来做。
-
+![](https://pic2.zhimg.com/80/v2-66fa5cdafc709896f704b37681dea1bd_hd.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg4MjAzMSwtMTUyMzkxMDg4Niw1MD
-ExOTI1OTYsLTc4NDAwNjMzNF19
+eyJoaXN0b3J5IjpbLTEyMDIyMzM1MjYsLTE1MjM5MTA4ODYsNT
+AxMTkyNTk2LC03ODQwMDYzMzRdfQ==
 -->
