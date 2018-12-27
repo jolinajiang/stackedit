@@ -6,8 +6,10 @@ Istio服务网格逻辑上分为**数据平面**和**控制平面**
 - **控制平面**负责管理和配置代理路由流量。此外控制平面配置Mixer以实施策略和收集遥测数据。
 
 架构图如下：
-![åŸºäºŽ Istio çš„åº”ç”¨ç¨‹åºæž¶æž„æ¦‚è§ˆ](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg)
+![Istio架构图](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMzgyNDE3LDE4NzMxMjM1NjAsLTE1OD
+eyJoaXN0b3J5IjpbNjMwOTgxMDkwLDE4NzMxMjM1NjAsLTE1OD
 kzNjk5OTksNzMwOTk4MTE2XX0=
 -->
