@@ -26,7 +26,7 @@
 ![preview](https://pic3.zhimg.com/v2-94dd7678c9dbb52b8897fb24d0c00ef6_r.jpg)
 最大变化在Mixer，Sidecar替换Envoy而已，架构上没有变化。
 Mixer三大功能：
-1、check。也叫
+1、check。也叫ccxxxxx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTYzNDA5XX0=
+eyJoaXN0b3J5IjpbODE2NTIyNjk5LDE2MDU2MzQwOV19
 -->
