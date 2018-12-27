@@ -29,8 +29,10 @@ Mixer三大功能：
  - check，也叫precondition,前置条件检查，比如说黑白名单，权限；
  - quota，比如说访问次数之类；
  - report，比如说日志，度量等。
+ -
+Blockquote
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM5MTA4ODYsNTAxMTkyNTk2LC03OD
-QwMDYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTAyMjI3OTAsLTE1MjM5MTA4ODYsNT
+AxMTkyNTk2LC03ODQwMDYzMzRdfQ==
 -->
