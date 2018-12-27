@@ -7,9 +7,24 @@ Istio服务网格逻辑上分为**数据平面**和**控制平面**
 
 架构图如下：
 ![Istio架构图](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg)
+^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwOTgxMDkwLDE4NzMxMjM1NjAsLTE1OD
-kzNjk5OTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxMDM4NDI0NjIsNjMwOTgxMDkwLDE4Nz
+MxMjM1NjAsLTE1ODkzNjk5OTksNzMwOTk4MTE2XX0=
 -->
