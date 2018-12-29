@@ -23,7 +23,7 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 ## Mixer
 [Mixer](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/)是一个独立于平台的组件，负责在服务网格中执行访问控制和使用策略，并从Envoy代理和其他服务收集遥测数据。代理提取请求级[属性](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/#%E5%B1%9E%E6%80%A7)，发送到Mixer进行评估。
 ## Pilot
-[Pilot](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#pilot-%E5%92%8C-envoy)为Envoy s
+[Pilot](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#pilot-%E5%92%8C-envoy)为Envoy sidecar提供服务发现功能，为智能路由（例如A/B测试，金丝雀部署等）
 
 
 
@@ -38,7 +38,7 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzM0OTYzOSw2OTcxMjIzNzIsNzc5Mz
-k3NTUsLTIxMDgxNjg5NjgsNjMwOTgxMDkwLDE4NzMxMjM1NjAs
-LTE1ODkzNjk5OTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTIxODk5NDUzLDY5NzEyMjM3Miw3NzkzOT
+c1NSwtMjEwODE2ODk2OCw2MzA5ODEwOTAsMTg3MzEyMzU2MCwt
+MTU4OTM2OTk5OSw3MzA5OTgxMTZdfQ==
 -->
