@@ -31,6 +31,9 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 Istio的架构设计中有几个关键目标，这些目标对于使系统能够应对大规模流量和高性能地服务处理至关重要。
 
 - **最大化透明度**：若想Istio被采纳，应该让运维和开发人员只需付出很少的代价就可以从中获益。为此，Istio将自身自动注入到服务间所有的网络路径中。Istio使用sidecar代理来捕获流量，并且在尽可能的地方自动编程网络层，以路由流量来通过这些代理，而无需对已部署的应用程序代码进行任何改动。
+- **增量**
+- **可移植性**
+- **策略一致性**
 
 
 
@@ -44,8 +47,8 @@ Istio的架构设计中有几个关键目标，这些目标对于使系统能够
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQ4OTU5MSwtNDUxNjA5OTAzLDEzNz
-k5MzIxNDYsMTIxODk5NDUzLDY5NzEyMjM3Miw3NzkzOTc1NSwt
-MjEwODE2ODk2OCw2MzA5ODEwOTAsMTg3MzEyMzU2MCwtMTU4OT
-M2OTk5OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQxNzY5Nzg1MywtOTEzNDg5NTkxLC00NT
+E2MDk5MDMsMTM3OTkzMjE0NiwxMjE4OTk0NTMsNjk3MTIyMzcy
+LDc3OTM5NzU1LC0yMTA4MTY4OTY4LDYzMDk4MTA5MCwxODczMT
+IzNTYwLC0xNTg5MzY5OTk5LDczMDk5ODExNl19
 -->
