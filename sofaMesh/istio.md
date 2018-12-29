@@ -27,6 +27,8 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 ## Citadel
 [Citadel](https://preliminary.istio.io/zh/docs/concepts/security/)通过内置身份和凭证管理可以提供强大的服务间和最终身份验证。可用于升级服务网格中未加密的流量，并为运维人员提供基于服务标识而不是网络控制的强制执行策略的能力。从0.5版本开始，Istio支持[基于角色的访问控制](https://preliminary.istio.io/zh/docs/concepts/security/#%E8%AE%A4%E8%AF%81)，以控制可以访问您的服务。
 
+## 设计目标
+Istio的架构设计中有几个关键目标，这些
 
 
 
@@ -41,7 +43,8 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTkzMjE0NiwxMjE4OTk0NTMsNjk3MT
-IyMzcyLDc3OTM5NzU1LC0yMTA4MTY4OTY4LDYzMDk4MTA5MCwx
-ODczMTIzNTYwLC0xNTg5MzY5OTk5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE0MDkzMTI5MjksMTM3OTkzMjE0NiwxMj
+E4OTk0NTMsNjk3MTIyMzcyLDc3OTM5NzU1LC0yMTA4MTY4OTY4
+LDYzMDk4MTA5MCwxODczMTIzNTYwLC0xNTg5MzY5OTk5LDczMD
+k5ODExNl19
 -->
