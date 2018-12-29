@@ -7,8 +7,8 @@ Istio服务网格逻辑上分为**数据平面**和**控制平面**
 
 架构图如下：
 ![Istio架构图](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg )
-
-
+## Envoy
+Istio使用[Envoy](https://www.envoyproxy.io/) 
 
 
 
@@ -26,6 +26,7 @@ Istio服务网格逻辑上分为**数据平面**和**控制平面**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgxNjg5NjgsNjMwOTgxMDkwLDE4Nz
-MxMjM1NjAsLTE1ODkzNjk5OTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1NjkyODE3ODgsLTIxMDgxNjg5NjgsNj
+MwOTgxMDkwLDE4NzMxMjM1NjAsLTE1ODkzNjk5OTksNzMwOTk4
+MTE2XX0=
 -->
