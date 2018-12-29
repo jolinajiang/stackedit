@@ -19,7 +19,7 @@ Istio使用[Envoy](https://www.envoyproxy.io/)代理的扩展版本，Envoy是�
 - 故障注入
 - 丰富的度量指标
 
-Envoy被部署为**sidecar**，和对应服务
+Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 
 
 
@@ -37,7 +37,7 @@ Envoy被部署为**sidecar**，和对应服务
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjMzMTM2OSw3NzkzOTc1NSwtMjEwOD
-E2ODk2OCw2MzA5ODEwOTAsMTg3MzEyMzU2MCwtMTU4OTM2OTk5
-OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjcyOTI3NjMsNzc5Mzk3NTUsLTIxMDgxNj
+g5NjgsNjMwOTgxMDkwLDE4NzMxMjM1NjAsLTE1ODkzNjk5OTks
+NzMwOTk4MTE2XX0=
 -->
