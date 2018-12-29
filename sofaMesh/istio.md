@@ -21,7 +21,7 @@ Istio使用[Envoy](https://www.envoyproxy.io/)代理的扩展版本，Envoy是�
 
 Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 ## Mixer
-[Mixer](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/)是一个独立于平台的组件，负责在服务网格中执行访问控制和使用策略，并从Envoy代理和其他
+[Mixer](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/)是一个独立于平台的组件，负责在服务网格中执行访问控制和使用策略，并从Envoy代理和其他服务收集遥测数据。代理提取请求级[属性](https://preliminary.istio.io/zh/docs/concepts/policies-and-telemetry/#%E5%B1%9E%E6%80%A7)，发送到Mixer进行评估。有关 
 
 
 
@@ -37,7 +37,7 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTIyMzcyLDc3OTM5NzU1LC0yMTA4MT
-Y4OTY4LDYzMDk4MTA5MCwxODczMTIzNTYwLC0xNTg5MzY5OTk5
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTUxODU5OTMzMiw2OTcxMjIzNzIsNzc5Mz
+k3NTUsLTIxMDgxNjg5NjgsNjMwOTgxMDkwLDE4NzMxMjM1NjAs
+LTE1ODkzNjk5OTksNzMwOTk4MTE2XX0=
 -->
