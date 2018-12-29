@@ -8,7 +8,9 @@ Istio服务网格逻辑上分为**数据平面**和**控制平面**
 架构图如下：
 ![Istio架构图](https://preliminary.istio.io/docs/concepts/what-is-istio/arch.svg )
 ## Envoy
-Istio使用[Envoy](https://www.envoyproxy.io/)代理的扩展版本，Envoy是以C++开发的高性能代理，用于调节 
+Istio使用[Envoy](https://www.envoyproxy.io/)代理的扩展版本，Envoy是以C++开发的高性能代理，用于调节服务网格中所有服务的入站和出战流量。Envoy的许多内置功能被istio发扬光大，例如：
+
+- 动态服务 
 
 
 
@@ -26,7 +28,7 @@ Istio使用[Envoy](https://www.envoyproxy.io/)代理的扩展版本，Envoy是�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNDk1NjM0LC0yMTA4MTY4OTY4LDYzMD
-k4MTA5MCwxODczMTIzNTYwLC0xNTg5MzY5OTk5LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbMTcxOTgwOTUyOCwtMjEwODE2ODk2OCw2Mz
+A5ODEwOTAsMTg3MzEyMzU2MCwtMTU4OTM2OTk5OSw3MzA5OTgx
+MTZdfQ==
 -->
