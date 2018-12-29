@@ -38,7 +38,7 @@ Istio的架构设计中有几个关键目标，这些目标对于使系统能够
 ## 流量管理
 使用Istio的流量管理模型，本质上是将流量与基础设施扩容解耦，让运维人员可以通过Pilot指定流量遵循什么规则，而不是指定哪些pod/VM应该接收流量——Pilot和智能Envoy代理会帮我们搞定。
 ![Istio æµé‡ç®¡ç†](https://preliminary.istio.io/docs/concepts/traffic-management/TrafficManagementOverview.svg)
-将流量从基础设施中解耦，这样就可以让Istio提供各种独立于应用程序代码之外的流量管理功能。除了A/B测试的动态[请求路由](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#%E8%AF%B7%E6%B1%82%E8%B7%AF%E7%94%B1)， 
+将流量从基础设施中解耦，这样就可以让Istio提供各种独立于应用程序代码之外的流量管理功能。除了A/B测试的动态[请求路由](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#%E8%AF%B7%E6%B1%82%E8%B7%AF%E7%94%B1)，逐步推出和金丝雀发布之外，它还使用超时、重试和熔断器来处理[故障恢复](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86)，最后还可以通过（）{}
 
 
 
@@ -49,9 +49,9 @@ Istio的架构设计中有几个关键目标，这些目标对于使系统能够
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjIwMjc2LDQ0ODM4NzQ3NywtOTEzND
-g5NTkxLC00NTE2MDk5MDMsMTM3OTkzMjE0NiwxMjE4OTk0NTMs
-Njk3MTIyMzcyLDc3OTM5NzU1LC0yMTA4MTY4OTY4LDYzMDk4MT
-A5MCwxODczMTIzNTYwLC0xNTg5MzY5OTk5LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbMTc5MTA3NTQxMyw0NDgzODc0NzcsLTkxMz
+Q4OTU5MSwtNDUxNjA5OTAzLDEzNzk5MzIxNDYsMTIxODk5NDUz
+LDY5NzEyMjM3Miw3NzkzOTc1NSwtMjEwODE2ODk2OCw2MzA5OD
+EwOTAsMTg3MzEyMzU2MCwtMTU4OTM2OTk5OSw3MzA5OTgxMTZd
+fQ==
 -->
