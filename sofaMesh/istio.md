@@ -25,7 +25,7 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 ## Pilot
 [Pilot](https://preliminary.istio.io/zh/docs/concepts/traffic-management/#pilot-%E5%92%8C-envoy)为Envoy sidecar提供服务发现功能，为智能路由（例如A/B测试，金丝雀部署等）和弹性（超时、重试‘熔断器等）提供流量管理功能。它将控制流量行为的高级路由规则特定于Envoy的配置，并在运行时将它们传播到sidecar。
 ## Citadel
-[Citadel](https://preliminary.istio.io/zh/docs/concepts/security/)通过内置身份和凭证管理可以提供强大的服务间
+[Citadel](https://preliminary.istio.io/zh/docs/concepts/security/)通过内置身份和凭证管理可以提供强大的服务间和最终身份验证。可用于升级服务网格中未加密的流量，并为运维人员提供基于服务标识而不是网络控制的强制执行策略的能力。从0.5版本开始，Istio支持基于
 
 
 
@@ -40,7 +40,7 @@ Envoy被部署为**sidecar**，和对应服务在同一个Kubernetes pod中。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ1Njg5NjAsMTIxODk5NDUzLDY5Nz
-EyMjM3Miw3NzkzOTc1NSwtMjEwODE2ODk2OCw2MzA5ODEwOTAs
-MTg3MzEyMzU2MCwtMTU4OTM2OTk5OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDc4MzYwMTQ0LDEyMTg5OTQ1Myw2OTcxMj
+IzNzIsNzc5Mzk3NTUsLTIxMDgxNjg5NjgsNjMwOTgxMDkwLDE4
+NzMxMjM1NjAsLTE1ODkzNjk5OTksNzMwOTk4MTE2XX0=
 -->
